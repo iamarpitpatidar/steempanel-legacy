@@ -8,17 +8,24 @@
         </div>
       </div>
     </div>
+    <mobile-menu v-if="isMobileMenuOpen" />
   </header>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import Logo from '~/components/Logo'
 import MenuIcon from '~/components/MenuIcon'
+import MobileMenu from '~/components/MobileMenu'
 
 export default {
   components: {
     Logo,
-    MenuIcon
+    MenuIcon,
+    MobileMenu
+  },
+  computed: {
+    ...mapState(['isMobileMenuOpen'])
   }
 }
 </script>
