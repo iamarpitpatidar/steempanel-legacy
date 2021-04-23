@@ -6,6 +6,10 @@
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <logo />
         </div>
+        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+          <toggle-theme />
+          <user-profile v-if="isUserAuth" />
+        </div>
       </div>
     </div>
     <mobile-menu v-if="isMobileMenuOpen" />
@@ -13,19 +17,24 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapGetters, mapState } from 'vuex'
 import Logo from '~/components/Logo'
 import MenuIcon from '~/components/MenuIcon'
 import MobileMenu from '~/components/MobileMenu'
+import ToggleTheme from '~/components/ToggleTheme'
+import UserProfile from '~/components/UserProfile'
 
 export default {
   components: {
     Logo,
     MenuIcon,
-    MobileMenu
+    MobileMenu,
+    ToggleTheme,
+    UserProfile
   },
   computed: {
-    ...mapState(['isMobileMenuOpen'])
+    ...mapState(['isMobileMenuOpen']),
+    ...mapGetters(['isUserAuth'])
   }
 }
 </script>
