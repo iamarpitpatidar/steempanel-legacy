@@ -7,12 +7,6 @@
       >
         News
       </nav-link>
-      <nav-link
-        to="/"
-        class="px-3 py-2 rounded-md text-sm font-medium"
-      >
-        DashBoard
-      </nav-link>
     </div>
   </div>
 </template>
