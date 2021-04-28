@@ -4,6 +4,7 @@ import mutations from './mutations'
 
 const initiateState = () => {
   return {
+    activeFooterMenu: null,
     isMobileMenuOpen: false,
     user: null
   }
