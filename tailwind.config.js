@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   darkMode: 'class',
   purge: [
@@ -18,6 +20,9 @@ module.exports = {
         discord: {
           1: '#7289DA'
         }
+      },
+      fontFamily: {
+        sans: ['Cairo', ...defaultTheme.fontFamily.sans]
       },
       maxHeight: {
         unset: 'unset'
