@@ -23,7 +23,7 @@
         <accordion-item>
           <accordion-header>Useful Links</accordion-header>
           <accordion-content>
-            <div>News</div>
+            <footer-link to="/news/">News</footer-link>
             <div>Feedback</div>
             <div>Submit a bug</div>
             <div>Submit a Dapp</div>
@@ -43,6 +43,7 @@ import Accordion from '~/components/Accordion/Accordion'
 import AccordionItem from '~/components/Accordion/AccordionItem'
 import AccordionHeader from '~/components/Accordion/AccordionHeader'
 import AccordionContent from '~/components/Accordion/AccordionContent'
+import FooterLink from '~/components/links/FooterLink'
 import DiscordLogo from '~/assets/icons/discord.svg'
 
 export default {
@@ -51,6 +52,7 @@ export default {
     AccordionItem,
     AccordionHeader,
     AccordionContent,
+    FooterLink,
     DiscordLogo
   }
 }
