@@ -1,7 +1,16 @@
 <template>
-  <footer class="bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-700 pt-6">
+  <footer class="bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-700 py-6">
     <div class="px-4 md:px-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <accordion class="footer-menu sm:grid sm:flex-row sm:items-start">
+        <accordion-item>
+          <accordion-header>Legal</accordion-header>
+          <accordion-content>
+            <footer-link to="/privacy/">Privacy Policy</footer-link>
+            <footer-link to="/disclaimer/">Disclaimer</footer-link>
+            <footer-link to="/terms/">Terms of use</footer-link>
+            <footer-link to="/agreement/">User Agreement</footer-link>
+          </accordion-content>
+        </accordion-item>
         <accordion-item>
           <accordion-header>Project</accordion-header>
           <accordion-content>
@@ -29,9 +38,20 @@
             <footer-link to="/dapp/submit/">Submit a Dapp</footer-link>
           </accordion-content>
         </accordion-item>
-        <accordion-item class="footer-area-legal">
-          <accordion-header>Logo</accordion-header>
-          <accordion-content />
+        <accordion-item class="footer-area-logo">
+          <g-link
+            to="/"
+            oncontextmenu="return false;"
+          >
+            <project-logo class="h-8 w-auto text-gray-800 dark:text-white my-4 sm:mt-0" />
+          </g-link>
+          <div class="text-gray-500 my-2 leading-6">© 2021 SteemPanel<br>All rights reserved.</div>
+          <g-link
+            to="https://discord.gg/b9ycQJC9Sh"
+            class="text-gray-400 hover:text-discord-1 transition-colors duration-300"
+          >
+            <discord-logo class="h-8" />
+          </g-link>
         </accordion-item>
       </accordion>
     </div>
@@ -44,6 +64,7 @@ import AccordionItem from '~/components/Accordion/AccordionItem'
 import AccordionHeader from '~/components/Accordion/AccordionHeader'
 import AccordionContent from '~/components/Accordion/AccordionContent'
 import FooterLink from '~/components/links/FooterLink'
+import ProjectLogo from '~/assets/images/steem-logo.svg'
 import DiscordLogo from '~/assets/icons/discord.svg'
 
 export default {
@@ -53,6 +74,7 @@ export default {
     AccordionHeader,
     AccordionContent,
     FooterLink,
+    ProjectLogo,
     DiscordLogo
   }
 }

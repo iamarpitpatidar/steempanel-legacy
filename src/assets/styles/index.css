@@ -10,10 +10,10 @@ a {
 
 /* Footer Menu */
 .footer-menu {
-  grid-template-areas: 'legal project resources links'
+  grid-template-areas: 'logo legal project resources links'
 }
-.footer-area-legal {
-  grid-area: legal;
+.footer-area-logo {
+  grid-area: logo;
 }
 
 /* Fonts */
