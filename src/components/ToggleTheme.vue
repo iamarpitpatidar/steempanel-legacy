@@ -4,11 +4,11 @@
     :title="'Toggle ' + nextTheme"
     @click="toggleTheme"
   >
-    <Sun
+    <Moon
       v-if="current === 'light'"
       class="h-6 w-6 text-gray-500 hover:text-gray-700"
     />
-    <Moon
+    <Sun
       v-else
       class="h-6 w-6 text-gray-400 hover:text-gray-300"
     />
