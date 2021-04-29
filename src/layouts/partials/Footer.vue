@@ -5,28 +5,28 @@
         <accordion-item>
           <accordion-header>Project</accordion-header>
           <accordion-content>
-            <div>About</div>
-            <div>FAQs</div>
-            <div>Blog</div>
-            <div>Contact</div>
+            <footer-link to="/about/">About</footer-link>
+            <footer-link to="/advertise/">Advertise</footer-link>
+            <footer-link to="/faqs/">FAQs</footer-link>
+            <footer-link to="https://steemit.com/@steempanel">Blog</footer-link>
           </accordion-content>
         </accordion-item>
         <accordion-item>
           <accordion-header>Resources</accordion-header>
           <accordion-content>
-            <div>Steem Open-Source</div>
-            <div>Developers</div>
-            <div>API</div>
-            <div>Status</div>
+            <footer-link to="https://github.com/steemit/steem">Steem Open-Source</footer-link>
+            <footer-link to="https://developers.steem.io/">Developers</footer-link>
+            <footer-link to="/api/">API</footer-link>
+            <footer-link to="/status/">Status</footer-link>
           </accordion-content>
         </accordion-item>
         <accordion-item>
           <accordion-header>Useful Links</accordion-header>
           <accordion-content>
             <footer-link to="/news/">News</footer-link>
-            <div>Feedback</div>
-            <div>Submit a bug</div>
-            <div>Submit a Dapp</div>
+            <footer-link to="/feedback/">Feedback</footer-link>
+            <footer-link to="/bug/submit">Submit a bug</footer-link>
+            <footer-link to="/dapp/submit/">Submit a Dapp</footer-link>
           </accordion-content>
         </accordion-item>
         <accordion-item class="footer-area-legal">
