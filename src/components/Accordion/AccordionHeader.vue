@@ -1,17 +1,30 @@
 <template>
   <div
-    class="mb-1"
+    class="flex justify-between text-gray-700 dark:text-gray-400 font-medium mb-1"
     @click="setActive"
   >
-    <slot />
+    <span>
+      <slot />
+    </span>
+    <chevron :class="['h-4', 'w-4', 'transition-all', 'transform', { 'rotate-90' : isActive }]" />
   </div>
 </template>
 
 <script>
-import { mapMutations } from 'vuex'
+import { mapMutations, mapState } from 'vuex'
+import chevron from '~/assets/icons/chevron.svg'
 
 export default {
+  components: {
+    chevron
+  },
   inject: ['_id'],
+  computed: {
+    ...mapState(['activeFooterMenu']),
+    isActive () {
+      return this.activeFooterMenu === this._id
+    }
+  },
   methods: {
     ...mapMutations(['toggleActiveFooterMenu']),
     setActive () {

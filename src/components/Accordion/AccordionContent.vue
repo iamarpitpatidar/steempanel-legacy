@@ -1,5 +1,5 @@
 <template>
-  <div :class="['overflow-hidden', 'transition-all', 'duration-300', 'ease-in-out', 'mb-3', isActive ? 'max-h-40' : 'max-h-0']">
+  <div :class="['text-gray-500', 'overflow-hidden', 'transition-all', 'duration-300', 'ease-in-out', 'mb-3', isActive ? 'max-h-40' : 'max-h-0']">
     <slot />
   </div>
 </template>
