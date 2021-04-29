@@ -6,12 +6,13 @@
     <span>
       <slot />
     </span>
-    <chevron :class="['h-4', 'w-4', 'transition-all', 'transform', { 'rotate-90' : isActive }]" />
+    <chevron :class="['h-4', 'w-4', 'sm:hidden', 'text-gray-500', 'transition-all', 'transform', { 'rotate-90' : isActive }]" />
   </div>
 </template>
 
 <script>
 import { mapMutations, mapState } from 'vuex'
+import { isMobile } from '~/utils'
 import chevron from '~/assets/icons/chevron.svg'
 
 export default {
@@ -28,7 +29,7 @@ export default {
   methods: {
     ...mapMutations(['toggleActiveFooterMenu']),
     setActive () {
-      this.toggleActiveFooterMenu(this._id)
+      if (isMobile()) this.toggleActiveFooterMenu(this._id)
     }
   }
 }

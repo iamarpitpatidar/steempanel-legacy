@@ -2,7 +2,7 @@ module.exports = {
   darkMode: 'class',
   purge: [
     './src/**/*.html',
-    './src/**/*.vue',
+    './src/**/*.vue'
   ],
   theme: {
     extend: {
@@ -19,6 +19,9 @@ module.exports = {
           1: '#7289DA'
         }
       },
+      maxHeight: {
+        unset: 'unset'
+      }
     }
   }
 }

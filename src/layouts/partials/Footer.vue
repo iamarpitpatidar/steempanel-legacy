@@ -1,12 +1,11 @@
 <template>
   <footer class="bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-700 pt-6">
     <div class="px-4 md:px-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-      <accordion>
+      <accordion class="footer-menu sm:grid sm:flex-row sm:items-start">
         <accordion-item>
           <accordion-header>Project</accordion-header>
           <accordion-content>
             <div>About</div>
-            <div>Advertise</div>
             <div>FAQs</div>
             <div>Blog</div>
             <div>Contact</div>
@@ -30,7 +29,7 @@
             <div>Submit a Dapp</div>
           </accordion-content>
         </accordion-item>
-        <accordion-item>
+        <accordion-item class="footer-area-legal">
           <accordion-header>Logo</accordion-header>
           <accordion-content />
         </accordion-item>
