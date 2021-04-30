@@ -45,13 +45,15 @@
           >
             <project-logo class="h-8 w-auto text-gray-800 dark:text-white my-4 sm:mt-0" />
           </g-link>
-          <div class="text-gray-500 my-2 leading-6">© 2021 SteemPanel<br>All rights reserved.</div>
-          <g-link
-            to="https://discord.gg/b9ycQJC9Sh"
-            class="text-gray-400 hover:text-discord-1 transition-colors duration-300"
-          >
-            <discord-logo class="h-8" />
-          </g-link>
+          <div class="text-gray-500 my-2 text-sm text-center sm:text-left"><span class="text-lg align-middle">©</span> 2021 SteemPanel. All rights reserved.</div>
+          <div class="flex justify-center sm:justify-start">
+            <g-link
+              to="https://discord.gg/b9ycQJC9Sh"
+              class="text-gray-400 hover:text-discord-1 transition-colors duration-300"
+            >
+              <discord-logo class="h-8" />
+            </g-link>
+          </div>
         </accordion-item>
       </accordion>
     </div>
