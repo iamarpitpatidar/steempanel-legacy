@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex justify-between text-gray-700 dark:text-gray-400 font-medium mb-1"
+    class="flex justify-between text-gray-700 dark:text-gray-300 font-medium mb-1"
     @click="setActive"
   >
     <span>

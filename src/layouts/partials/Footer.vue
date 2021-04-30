@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-700 py-6">
+  <footer class="bg-white dark:bg-gray-900 border-t-2 border-gray-200 dark:border-gray-700 py-6">
     <div class="px-4 md:px-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <accordion class="footer-menu sm:grid sm:flex-row sm:items-start">
         <accordion-item>
@@ -43,7 +43,7 @@
             to="/"
             oncontextmenu="return false;"
           >
-            <project-logo class="h-8 w-auto text-gray-800 dark:text-white my-4 sm:mt-0" />
+            <project-logo class="h-8 w-auto text-gray-800 dark:text-gray-300 my-4 sm:mt-0" />
           </g-link>
           <div class="text-gray-500 my-2 text-sm text-center sm:text-left"><span class="text-lg align-middle">©</span> 2021 SteemPanel. All rights reserved.</div>
           <div class="flex justify-center sm:justify-start">

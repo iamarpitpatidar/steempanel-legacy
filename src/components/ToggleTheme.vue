@@ -6,7 +6,7 @@
   >
     <Moon
       v-if="current === 'light'"
-      class="h-6 w-6 text-gray-500 hover:text-gray-700"
+      class="h-6 w-6 text-gray-500 hover:text-gray-600"
     />
     <Sun
       v-else
