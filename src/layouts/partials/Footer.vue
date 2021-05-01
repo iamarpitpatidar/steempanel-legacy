@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white dark:bg-gray-900 border-t-2 border-gray-200 dark:border-gray-700 py-6">
+  <footer class="bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-700 py-6">
     <div class="px-4 md:px-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       <accordion class="footer-menu sm:grid sm:flex-row sm:items-start">
         <accordion-item>
