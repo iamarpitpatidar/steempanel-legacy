@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   darkMode: 'class',
@@ -9,6 +10,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        blueGray: colors.blueGray,
         light: {
           50: '#EFF6FF'
         },
