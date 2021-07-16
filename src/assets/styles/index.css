@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600&display=swap');
 @import 'scrollbar.css';
 
 input,
@@ -19,4 +20,12 @@ a {
 /* Fonts */
 .font-cairo {
   font-family: 'Cairo', sans-serif;
+}
+.font-rajdhani {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}
+.font-rajdhani-500 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
 }
