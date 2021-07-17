@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white dark:bg-gray-800 shadow-md">
+  <header class="fixed top-0 w-full bg-white dark:bg-gray-800 shadow-md">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
       <div class="relative flex items-center justify-between h-16">
         <menu-icon />
