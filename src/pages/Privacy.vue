@@ -5,13 +5,27 @@
         <div class="font-rajdhani text-xl text-gray-700 dark:text-gray-350">Privacy Policy for SteemPanel</div>
         <div>
           <p>At steempanel, accessible from https://steempanel.online, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by steempanel and how we use it. This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in steempanel. This policy is not applicable to any information collected offline or via channels other than this website.</p>
-          <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
+          <p>
+            If you have additional questions or require more information about our Privacy Policy, do not hesitate to <g-link
+              class="underline"
+              to="/contact"
+            >
+              contact us.
+            </g-link>
+          </p>
         </div>
       </div>
       <div class="pb-2">
         <div class="font-rajdhani text-xl text-gray-700 dark:text-gray-350">Consent</div>
         <div>
-          <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+          <p>
+            By using our website, you hereby consent to our Privacy Policy and agree to its <g-link
+              to="/terms"
+              class="underline"
+            >
+              terms of service.
+            </g-link>
+          </p>
         </div>
       </div>
       <div class="pb-2">
@@ -77,7 +91,14 @@
           <p>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</p>
           <p>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</p>
           <p>The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</p>
-          <p>If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</p>
+          <p>
+            If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please <g-link
+              to="/contact"
+              class="underline"
+            >
+              contact us.
+            </g-link>
+          </p>
         </div>
       </div>
       <div class="pb-2">

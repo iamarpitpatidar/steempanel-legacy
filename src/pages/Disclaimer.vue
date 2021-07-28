@@ -13,7 +13,19 @@
       <div class="pb-2">
         <div class="font-rajdhani text-xl text-gray-700 dark:text-gray-350">Consent</div>
         <div>
-          <p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
+          <p>
+            By using our website, you hereby consent to our <g-link
+              to="/privacy"
+              class="underline"
+            >
+              privacy policy
+            </g-link> and agree to our <g-link
+              to="/terms"
+              class="underline"
+            >
+              terms of service.
+            </g-link>
+          </p>
         </div>
       </div>
       <div class="pb-2">

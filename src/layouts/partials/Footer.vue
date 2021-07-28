@@ -5,10 +5,9 @@
         <accordion-item>
           <accordion-header>Legal</accordion-header>
           <accordion-content>
-            <footer-link to="/privacy">Privacy Policy</footer-link>
             <footer-link to="/disclaimer">Disclaimer</footer-link>
-            <footer-link to="/terms">Terms of use</footer-link>
-            <footer-link to="/agreement">User Agreement</footer-link>
+            <footer-link to="/privacy">Privacy Policy</footer-link>
+            <footer-link to="/terms">Terms of Service</footer-link>
           </accordion-content>
         </accordion-item>
         <accordion-item>
@@ -33,7 +32,7 @@
           <accordion-header>Useful Links</accordion-header>
           <accordion-content>
             <footer-link to="/news">News</footer-link>
-            <footer-link to="/feedback">Feedback</footer-link>
+            <footer-link to="/contact">Contact Us</footer-link>
             <footer-link to="/bug/submit">Submit a bug</footer-link>
             <footer-link to="/dapp/submit">Submit a Dapp</footer-link>
           </accordion-content>
