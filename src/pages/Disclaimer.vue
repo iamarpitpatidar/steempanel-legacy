@@ -25,3 +25,11 @@
     </section>
   </Document>
 </template>
+
+<script>
+export default {
+  metaInfo: {
+    title: 'Disclaimer'
+  }
+}
+</script>

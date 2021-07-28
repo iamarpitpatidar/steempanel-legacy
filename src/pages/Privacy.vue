@@ -93,7 +93,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About Us'
+    title: 'Privacy Policy'
   }
 }
 </script>
