@@ -1,6 +1,6 @@
 <template>
-  <Layout>
-    <section class="px-4 md:px-8 py-8 space-y-4 text-gray-600 dark:text-gray-400">
+  <Content>
+    <section class="space-y-4 text-gray-600 dark:text-gray-400">
       <div class="pb-2">
         <div class="font-rajdhani text-xl text-gray-700 dark:text-gray-350">What is Steem ?</div>
         <div class="text-sm sm:text-base">Steem is a social media blockchain that allows and grows communities in the ecosystem and makes immediate revenue possible for users by rewarding them for sharing good and quality content. It’s the first platform on blockchain that can power real applications via social media apps like Steemit.</div>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </section>
-  </Layout>
+  </Content>
 </template>
 <script>
 export default {

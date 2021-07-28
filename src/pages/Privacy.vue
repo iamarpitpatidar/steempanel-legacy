@@ -1,6 +1,6 @@
 <template>
-  <Layout>
-    <section class="px-4 md:px-8 py-8 space-y-4 text-gray-600 dark:text-gray-400">
+  <Content>
+    <section class="space-y-4 text-gray-600 dark:text-gray-400">
       <h1>Privacy Policy for Steempanel</h1>
 
       <p>At steempanel, accessible from www.steempanel.online, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by steempanel and how we use it.</p>
@@ -91,7 +91,7 @@
 
       <p>steempanel does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
     </section>
-  </Layout>
+  </Content>
 </template>
 <script>
 export default {
