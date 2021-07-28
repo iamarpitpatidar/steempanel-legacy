@@ -20,6 +20,9 @@ module.exports = {
       .use('svg-to-vue-component')
       .loader('svg-to-vue-component/loader')
   },
+  permalinks: {
+    trailingSlash: false
+  },
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss'
