@@ -1,5 +1,5 @@
 <template>
-  <Content>
+  <Document>
     <section class="space-y-4 text-gray-600 dark:text-gray-400">
       <div class="pb-2">
         <div class="font-rajdhani text-xl text-gray-700 dark:text-gray-350">What is Steem ?</div>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </section>
-  </Content>
+  </Document>
 </template>
 <script>
 export default {
