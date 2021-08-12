@@ -1,6 +1,6 @@
 <template>
-  <footer class="bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-700 py-6">
-    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
+  <footer class="mt-auto w-full bg-white dark:bg-gray-800 border-t-2 border-gray-200 dark:border-gray-700 py-6">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <accordion class="footer-menu sm:grid sm:flex-row sm:items-start">
         <accordion-item>
           <accordion-header>Legal</accordion-header>
